@@ -24,13 +24,15 @@ console.log("La letra" + letras + "aparece" + resolucion + "veces en el texto")
 let numerosImpares = []
 function sacarImpares() {
 
-    const numero = parseFloat(prompt("Ingresa numero"));
+    const numero = parseInt(prompt("Ingresa numero"));
 
-    for(i=numero; i < numero +50;i++){
+    for(i=num; i < num +50;i++){
         if(i%2 !== 0){
             sacarImpares.push(i);
         }
     }
     return sacarImpares;
 }
-console.log(numerosImpares)
+console.log(i < numero)
+
+// Entiendo que tengo que realizar una cuenta, he colocado un prompt para seleccionar el numero y desde ahí contar los siguientes 50, no me está resultando despues de probar varias cosas aunque entiendo la idea.
